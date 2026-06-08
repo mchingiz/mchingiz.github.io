@@ -98,7 +98,7 @@ const answers = {
     "97": "A",
     "98": "A",
     "99": "C",
-    "100": "????????",
+    "100": "E",
     "101": "E",
     "102": "E",
     "103": "C",
@@ -143,7 +143,7 @@ const answers = {
     "142": "D",
     "143": "D",
     "144": "E",
-    "145": "D,E ??????",
+    "145": "D,E",
     "146": "D",
     "147": "A",
     "148": "C",
@@ -255,7 +255,7 @@ const answers = {
     "254": "C",
     "255": "E",
     "256": "A",
-    "257": "sD",
+    "257": "D",
     "258": "D",
     "259": "E",
     "260": "C",
@@ -266,7 +266,10 @@ const answers = {
     "265": "B",
 }
 
-// Command: ls > filelist.txt
+/*
+    Command: ls > filelist.txt
+    Trigger github pages deployment: git commit -m "rebuild" --allow-empty
+*/
 const fileNames = [
 "Screenshot 2026-06-08 at 20.13.46.png",
 "Screenshot 2026-06-08 at 20.13.49.png",
